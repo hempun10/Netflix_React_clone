@@ -2,8 +2,8 @@ import React from "react";
 
 const imgUrl = "https://image.tmdb.org/t/p/original";
 
-const Card = ({ img }) => {
-  return <img className="card" src={img} alt="cover-img" />;
+export const Card = ({ img }) => {
+  return <img className="card movie-card" src={img} alt="cover-img" />;
 };
 
 const Row = ({ title, arr = [] }) => {

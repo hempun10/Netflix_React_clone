@@ -1,0 +1,19 @@
+
+.movie-card{
+    border-radius: 5px;
+}
+.movie-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #100b0b;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-size: 3rem;
+    text-align: center;
+
+    padding: 1em;
+    background-color: #100b0b;
+    color: #fff;
+}

@@ -6,7 +6,6 @@ const Header = () => {
   return (
     <nav className="header">
       <Link to={"/"}>
-        {" "}
         <img src={logo} alt="Logo" />
       </Link>
 
