@@ -30,8 +30,12 @@ $bg: #000;
     box-sizing: border-box;
     justify-content: space-between;
 
-    >img {
-        height: 70%;
+    > a{
+        font-size: 1px;
+
+        >img{
+            width: 12vw;
+        }
     }
 
     >svg {

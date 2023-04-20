@@ -5,7 +5,11 @@ import { ImSearch } from "react-icons/im";
 const Header = () => {
   return (
     <nav className="header">
-      <img src={logo} alt="Logo" />
+      <Link to={"/"}>
+        {" "}
+        <img src={logo} alt="Logo" />
+      </Link>
+
       <div className="">
         <Link to="/shows">Tv Shows</Link>
         <Link to="/movies">Movies</Link>

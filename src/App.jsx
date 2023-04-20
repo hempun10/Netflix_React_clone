@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.scss";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./Components/Home/Home";
+import Home from "./Components/Pages/Home/Home";
 import Header from "./Components/Header/Header";
 
 function App() {
